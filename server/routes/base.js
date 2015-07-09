@@ -11,7 +11,10 @@ router.get('/', function(req, res) {
     'Jon',
     'Joe',
     'Alex',
-    'Nate'
+    'Nate',
+    'Andy',
+    'Thomas',
+    'Zac'
   ];
 
   res.send(_.shuffle(names));
